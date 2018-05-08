@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "40717200101",
+    "firebase_url": "https://landofloves-d1462.firebaseio.com",
+    "project_id": "landofloves-d1462",
+    "storage_bucket": "landofloves-d1462.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:40717200101:android:7e6362f00d40ec34",
+        "android_client_info": {
+          "package_name": "com.example.farbo.landoflove"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "40717200101-volbclbkhs8np5ej445j12i2ghdahb32.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.farbo.landoflove",
+            "certificate_hash": "7d8b09a986480a28a69bf26254c17cad41f931c9"
+          }
+        },
+        {
+          "client_id": "40717200101-8smks4uhum8i0f4en20vuh04hi07rd11.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmVzoUHVEdjq8G4XLbK6-t91pLMhBO784"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "40717200101-8smks4uhum8i0f4en20vuh04hi07rd11.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
