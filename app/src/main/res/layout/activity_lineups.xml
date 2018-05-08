@@ -55,37 +55,38 @@
             app:tabTextColor="#ffffff">
 
             <android.support.design.widget.TabItem
-                android:id="@+id/tabItem"
+                android:id="@+id/tabAll"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+
                 android:text="All" />
 
             <android.support.design.widget.TabItem
-                android:id="@+id/tabItem2"
+                android:id="@+id/tabLove"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Love" />
 
             <android.support.design.widget.TabItem
-                android:id="@+id/tabItem3"
+                android:id="@+id/tabAir"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Air" />
 
             <android.support.design.widget.TabItem
-                android:id="@+id/tabItem4"
+                android:id="@+id/tabEarth"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Earth" />
 
             <android.support.design.widget.TabItem
-                android:id="@+id/tabItem5"
+                android:id="@+id/tabWater"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Water" />
 
             <android.support.design.widget.TabItem
-                android:id="@+id/tabItem6"
+                android:id="@+id/tabFire"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Fire" />

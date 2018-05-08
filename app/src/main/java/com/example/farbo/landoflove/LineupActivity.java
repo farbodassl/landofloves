@@ -3,6 +3,7 @@ package com.example.farbo.landoflove;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
+import android.net.Uri;
 import android.support.design.widget.TabLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -22,7 +23,7 @@ import android.view.ViewGroup;
 
 import android.widget.TextView;
 
-public class LineupActivity extends AppCompatActivity {
+public class LineupActivity extends AppCompatActivity implements AllFragment.OnFragmentInteractionListener, LoveFragment.OnFragmentInteractionListener, AirFragment.OnFragmentInteractionListener, EarthFragment.OnFragmentInteractionListener, WaterFragment.OnFragmentInteractionListener, FireFragment.OnFragmentInteractionListener {
 
     /**
      * The {@link android.support.v4.view.PagerAdapter} that will provide
@@ -111,6 +112,11 @@ public class LineupActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    @Override
+    public void onFragmentInteraction(Uri uri) {
+
+    }
+
     /**
      * A placeholder fragment containing a simple view.
      */
@@ -158,15 +164,39 @@ public class LineupActivity extends AppCompatActivity {
 
         @Override
         public Fragment getItem(int position) {
-            // getItem is called to instantiate the fragment for the given page.
-            // Return a PlaceholderFragment (defined as a static inner class below).
-            return PlaceholderFragment.newInstance(position + 1);
+            Fragment fragment = null;
+            switch(position){
+                case 0 :
+                    fragment = new AllFragment();
+                    break;
+
+                case 1 :
+                    fragment = new LoveFragment();
+                    break;
+
+                case 2 :
+                    fragment = new AirFragment();
+                    break;
+
+                case 3 :
+                    fragment = new EarthFragment();
+                    break;
+
+                case 4 :
+                    fragment = new WaterFragment();
+                    break;
+
+                case 5 :
+                    fragment = new FireFragment();
+                    break;
+            }
+            return fragment;
         }
 
         @Override
         public int getCount() {
-            // Show 3 total pages.
-            return 3;
+            // Show 6 total pages.
+            return 6;
         }
     }
 }
